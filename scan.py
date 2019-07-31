@@ -49,7 +49,7 @@ def main():
 		print negative+"\nEither the server is down or you are not connected to the internet."
 		exit()
 	try:
-		dictionary = open("Nurmala","r")
+		dictionary = open("DiazID","r")
 	except(IOError):
 		print negative+"Dictionary file not found_scanned_global. Please download the latest dictionary from github link"
 		exit()
